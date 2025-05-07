@@ -3,6 +3,11 @@
   <!-- DO NOT CHANGE CODE WITHIN THE HEAD ELEMENT -->
   <!-- UNLESS YOU KNOW WHAT YOU"RE DOING-->
   <head>
+    <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
@@ -21,7 +26,121 @@
     <header></header>
     <!-- Main Area -->
     <main>
-      <h1>My Amazing Portfolio</h1>
+      <h4>MadiixEsihle</h4>
+      <br>
+      <br>
+    </section>
+    <div class="box">
+      <div class="header" id="info-section">
+        <h2>Esihle Madikane <br> Contact number: +27 847759913 <br> Email: emadikane23@gmail.com</h2>
+      </div>
+    </section> 
+      <section>
+        <div> 
+          <img id="image"
+          src="assets\images\IMG_3341.JPG" alt="assets\images\IMG_3341.JPG" 
+          height="180"
+          width="190"
+          style="animation: spin 2s linear infinite;"
+          >
+          <style>
+            @keyframes spin {
+              0% {
+                transform: rotate(0deg);
+              }
+              100% {
+                transform: rotate(5deg);
+              }
+            }
+          </style>
+        </div>
+      <br>
+      <section class="title" id="Summary">
+        <h3>Professional Summary</h3>
+      </section>
+      <p>Passionate, proactive and proficient creative with a keen interest in artistry. <br> 
+      With a four year legal background, Madix branched out into the creeative industry first as a nail artist, <br>
+      and graphic design. <br>
+      Madix has since persued her passion in tech, and seeks to broaden her interests in the field of tech. <br>
+      <br>
+      <br>
+      <br>
+      </p>
+      <section class="title">
+        <header>Core Competencies</header></section>
+      <p>
+        <ul>
+        <li>-Research</li>
+        <li>-Team collaboration
+          <li>-Planning & Organising
+        </li>
+        </ul></p>
+        <br>
+        <section class="title" id="experience-section">
+          <header>Experience</header></section>
+        <ul>
+          <li>Intern | Macaroni Ink | 01/2024 - 07/2024</li>
+          <li>
+            -Data Capturing
+            <li>
+            -Graphic Design
+            <li>
+              -Maintaining client relations
+            </li>
+            <br>
+         
+        </ul>
+
+  </body>
+  <section class="title" id="education-section">
+    <header>Education</header></section>
+  <section class="header-view-1" id="education-content-span">
+    <p>LLB</p></section>
+  <p>University of South Africa | 2020-2024</p>
+  <br>
+  <section class="title" id="skills-section">
+    <header>Skills</header></section>
+  <ul>
+    <li>LexisNexis | Google workspace</li>
+    <li>Canva | Adobe | Nail art</li>
+
+  </ul>
+  <br>
+  <br>
+      <section>
+        <form id="contact-form">
+          <fieldset>
+            <legend>Enter your details</legend>
+            <br>
+            <label for="firstName"
+              >First/Second Name:
+              <input type="text" id="firstName" name="firstName" required />
+            </label>
+
+            <label for="lastName"
+              >Last Name:
+              <input type="text" id="lastName" name="lastName" required />
+            </label>
+
+            <label for="email"
+              >Email:
+              <input type="email" id="email" name="email" required />
+            </label>
+
+            <label for="message"
+              >Message:
+              <textarea id="message"
+               type="text" id="message" name="message"></textarea> 
+            </label>
+          </fieldset>
+          <button class="moving-button" type="submit">Submit</button>
+        </form>
+        <div id="form-response"></div>
+      </section>
+      <section>
+        <ul id="result-view"></ul>
+      </section>
     </main>
+    <script src="./script.js"></script>
   </body>
 </html>

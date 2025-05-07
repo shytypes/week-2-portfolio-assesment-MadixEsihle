@@ -8,3 +8,152 @@
 /* the font-family 'JetBrains Mono', has been linked
  * and is available for your use
  * */
+ .title  {
+  font-family: "National Park", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  justify-content: center;
+  color: azure;
+}
+
+div>h2 {
+  display: flex;
+  justify-content: right;
+  font-size: medium;
+
+}
+
+section>h3 {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  color: black;
+  
+}
+h4 {
+  display: flex;
+  justify-content: center;
+  color: azure;
+  font-family: cursive;
+  font-size: 3em;
+}
+
+
+body {
+background-color: rgba(154, 136, 233, 0.747) ;
+
+}
+
+main {
+  color: rgb(0, 0, 0);
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  
+}
+
+section>header {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+
+}
+
+ul>li {
+  display: flex;
+  justify-content: center;
+}
+
+section>header {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 550px;
+  height: 220px;
+  background-color: rgb(255, 254, 253);
+  border: 1px blueviolet;
+  padding: 15px;
+  margin: 0px auto;
+  padding-top: 5px;
+  justify-content: right;
+   
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+legend {
+  align-self: center;
+}
+
+label {
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  align-self: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: #4b23aa;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 40%;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  background-color: teal;
+  transform: scale(1.1);
+}
+
+h1 {
+  align-self: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+#image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: top 1s, left 1s;
+}
